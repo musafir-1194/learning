@@ -4,16 +4,16 @@
 // In other words, a closure gives you access to an outer function's scope 
 // from an inner function.
 
-function x() {
+function displayFunction() {
     var message = 'Learning is cool!!';
 
-    function y() {
+    function displayMessage() {
         console.log(message);
     }
-    return y;
+    return displayMessage;
 }
 
-var myFunc = x();
+var myFunc = displayFunction();
 myFunc();
 
 // y() inner function is returned from the outer function before being executed.
