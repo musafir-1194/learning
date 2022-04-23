@@ -16,12 +16,12 @@ function displayFunction() {
 var myFunc = displayFunction();
 myFunc();
 
-// y() inner function is returned from the outer function before being executed.
+// displayMessage() inner function is returned from the outer function before being executed.
 
 // In some programming languages, the local variables within a function exist for just 
 // the duration of that function's execution
 
-// Once x() finishes executing, you might expect that the name variable would no 
+// Once displayFunction() finishes executing, you might expect that the name variable would no 
 // longer be accessible. However, because the code still works as expected, this is 
 // obviously not the case in JavaScript.
 
